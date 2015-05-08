@@ -249,13 +249,13 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/final-front-view.jpg) no-repeat center top;
+	background: url(../img/front-view-copy.jpg) no-repeat center top;
 	margin-top: 0px;
 	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 850px;
+	min-height: 820px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -332,8 +332,8 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 }
 .about {
-	background-image: url(../img/isometric-view-final-copy.jpg);
-	height: 500px;
+	background-image: url(../img/portfolio/google-isometric-view.jpg);
+	height: 1000px;
 }
 
 /* Portfolio Wrap Section */
@@ -373,6 +373,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio {
 	background-image: url(../img/final-front-view-copy.jpg);
+	height: 1000px;
 }
 
 /* Service Wrap */
@@ -449,11 +450,13 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   position: relative;
   overflow: hidden;
-  background-color: #2f2f2f;
+  background-color: white;
   -webkit-transition: background-color 0.4s;
   -moz-transition: background-color 0.4s;
   -o-transition: background-color 0.4s;
   transition: background-color 0.4s;
+  height: 250px;
+  width: 350px;
 }
 .project .overlay {
   position: absolute;
